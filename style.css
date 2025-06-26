@@ -1,0 +1,27 @@
+body {
+    background-color: #282c34;
+    color: #f0f0f0;
+    font-family: -apple-system, BlinkMacSystemFont, 'SegoiUI', Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+#meu-botao {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background-color: #61dafb;
+    color: #282c34;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3 ease;
+}
+
+#meu-botao:hover {
+    background-color: #f0f0f0;
+}
